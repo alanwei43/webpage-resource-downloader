@@ -1,0 +1,29 @@
+{
+  "name": "webpage-resource-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanwei43/webpage-resource-downloader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alanwei43/webpage-resource-downloader/issues"
+  },
+  "homepage": "https://github.com/alanwei43/webpage-resource-downloader#readme",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.16",
+    "@types/node": "^13.9.0",
+    "@types/node-fetch": "^2.5.5",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
+  }
+}
