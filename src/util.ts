@@ -86,10 +86,10 @@ export async function downloadResource(url: string, dir: string, expandPath: boo
         let destDir = dir;
         if (expandPath) {
             destDir = path.join(dir, path.dirname(parsedUrl.path));
-            fs.mkdirSync(destDir, {
-                recursive: true
-            });
         }
+        fs.mkdirSync(destDir, {
+            recursive: true
+        });
         const fileFullPath = path.join(destDir, path.basename(parsedUrl.path));
         const destStream = fs.createWriteStream(fileFullPath);
         res.body.pipe(destStream);
