@@ -3,7 +3,7 @@
 使用 `npm install webpage-resource-downloader` 安装.
 
 ```javascript
-import { getUrls, downloadResources } from "./util"
+import { getUrls, downloadResources } from "webpage-resource-downloader"
 
 getUrls("https://hot.cnbeta.com/articles/movie/953697.htm")
     .then(resources => resources.filter(res => res.type === "img").map(res => res.url))
